@@ -1,0 +1,35 @@
+:root {
+  --forest: #173D32;
+  --cream: #F5F0E6;
+  --graphite: #202522;
+  --sage: #D9E5D7;
+  --caramel: #B77A4B;
+  --muted: #59645C;
+}
+
+body{
+    background-color: var(--cream);
+    color: var(--graphite);
+    font-family: "Inter", sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.github-icon {
+  margin-right: 20px; 
+}
+img{
+    display: block;
+    align-items: left;
+}
+h1{
+    text-align: right;
+    margin-right:480px;
+}
+p{
+    text-align: right;
+    margin-right:500px;
+}
